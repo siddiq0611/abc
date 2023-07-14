@@ -1,0 +1,148 @@
+body {
+    background-image: url(pictures/background.jpg);
+    justify-content: space-between;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.container .diamond {
+    margin-top: 50px;
+}
+
+.container .diamond .heading1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.container .diamond .box1 {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    width: 48%;
+    cursor: pointer;
+}
+
+.container .diamond .box1 img {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    border-radius: 50%;
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease;
+    filter: drop-shadow(-10px -10px 10px rgb(29, 161, 212));
+}
+
+.container .diamond .box1 img:hover {
+    transform: scale(1.2); 
+}
+
+.container .diamond .box1 a {
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.container .platinum {
+    margin-top: 50px;
+}
+
+.container .platinum .heading1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.container .platinum .box2 {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    width: 32%;
+    cursor: pointer;
+}
+
+.container .platinum .box2 img {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    border-radius: 50%;
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    filter: drop-shadow(-10px -10px 10px rgb(29, 161, 212));
+}
+
+.container .platinum .box2 img:hover {
+    transform: scale(1.25); 
+}
+
+.container .platinum .box2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .gold {
+    margin-top: 50px;
+}
+
+.container .gold .heading1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.container .gold .box3 {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    width: 24%;
+    cursor: pointer;
+}
+
+.container .gold .box3 img {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    border-radius: 50%;
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    filter: drop-shadow(-10px -10px 10px rgb(29, 161, 212));
+}
+
+.container .gold .box3 img:hover {
+    transform: scale(1.3); 
+}
+
+.container .gold .box3 a {
+    text-decoration: none;
+    color: white;
+}
