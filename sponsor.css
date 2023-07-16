@@ -19,13 +19,13 @@ body {
     font-size: 40px;
     margin-bottom: 35px;
     color: white;
-    
 }
 
 .container .diamond .heading1:hover {
     text-shadow: 0 0 5px white;
     color: #dbdbdb;
     transform: scale(1.05);
+    cursor: pointer:
 }
 
 .container .diamond .box1 {
