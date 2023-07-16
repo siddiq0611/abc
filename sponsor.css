@@ -19,6 +19,7 @@ body {
     font-size: 40px;
     margin-bottom: 35px;
     color: white;
+    text-shadow: 0 0 3px #dbdbdb;
 }
 
 .container .diamond .box1 {
@@ -72,6 +73,7 @@ body {
     font-size: 40px;
     margin-bottom: 35px;
     color: white;
+    text-shadow: 0 0 3px #808080;
 }
 
 .container .platinum .box2 {
@@ -130,6 +132,7 @@ body {
     margin-bottom: 35px;
     color: white;
     flex-basis: 100%;
+    text-shadow: 0 0 3px gold;
 }
 
 .container .gold .box3 {
